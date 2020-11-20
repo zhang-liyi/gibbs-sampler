@@ -229,6 +229,7 @@ neff <- function(x){
   return(n/(1+2*sum(autocor_arr)))
 }
 
+# Get fitted parameters. You need to surf your folders and get the name of the saved file...
 lambda_c1 <- readRDS('results/2020-10-12-225004/lambda.Rda')
 lambda_c2 <- readRDS('results/2020-10-12-225016/lambda.Rda')
 logjoint_c1 <- readRDS('results/2020-10-12-225004/logjoint.Rda')
