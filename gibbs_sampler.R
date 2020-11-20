@@ -77,7 +77,7 @@ quick_save <- function(data){
 }
 
 # =================================================================+
-# Analyze Data
+# Model-building and Inference
 # =================================================================+
 
 # Computes Dirichlet density; parameter a must be a vector
